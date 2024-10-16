@@ -9,3 +9,6 @@
 
 # The output directory
 output/
+
+# Backups
+*~
