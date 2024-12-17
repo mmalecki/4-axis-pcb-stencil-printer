@@ -12,3 +12,8 @@ output/
 
 # Backups
 *~
+
+# Python
+venv/
+__pycache__
+dist/
