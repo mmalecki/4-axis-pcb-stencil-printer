@@ -28,8 +28,10 @@ def topPlate():
             .rarray(boltS, boltS, lengthBolts - 1, widthBolts - 1).circle(boltR, mode='s')
         )
 
-    sketch.export("output/top-plate.dxf")
     plate = cq.Workplane("XY").placeSketch(sketch).extrude(thickness)
     return plate
 
+plate = topPlate()
+plate.faces(">Z").workplane().section().export("output/top-plate-z.dxf")
+plate.faces(">Y").workplane().section().export("output/top-plate-y.dxf")
 show_object(topPlate())

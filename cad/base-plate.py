@@ -21,8 +21,10 @@ def basePlate():
         .rarray(carriageBoltLengthS, carriageBoltWidthS, 2, 2).circle(Settings.boltR, mode='s')
         .reset()
     )
-    sketch.export("output/base-plate.dxf")
     plate = cq.Workplane("XY").placeSketch(sketch).extrude(thickness)
     return plate
 
-show_object(basePlate(), name="basePlate")
+plate = basePlate()
+plate.faces(">Z").workplane().section().export("output/base-plate-z.dxf")
+plate.faces(">Y").workplane().section().export("output/base-plate-y.dxf")
+show_object(plate, name="basePlate")
