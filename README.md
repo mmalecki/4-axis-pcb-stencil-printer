@@ -11,6 +11,20 @@ You can find the source material on:
 I chose to build this project because of its large working field,
 and focus on what really matters - accurate stencil alignment.
 
-My role here is little more than digital historian and backfiller
-of missing data and instructions. I may contribute something on my
-own, but for now, three cheers to Philipp!
+All the modifications and their status is described below.
+
+## Mods
+
+### Top plate workholding
+This mod adds workholding features (tapped holes) to the top plate,
+making adding tooling a breaze.
+
+Technical drawing: [`technical-drawings/top-plate-workholding.dxf`](`top-plate-workholding.dxf`)
+
+Status: in use
+
+## Structure
+
+* [`technical-drawings/`](technical-drawings/) - technical drawings in DXF and PDF formats for CNC manufacturing
+* [`cad/`](cad/) - source CAD files, either original author's (STLs), or mine (FreeCAD, CadQuery)
+* [`docs/`](docs/) - documentation
