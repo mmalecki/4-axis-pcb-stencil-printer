@@ -2,6 +2,7 @@
 *.3mf
 *.stl
 *.step
+*.FCBak
 
 # And some resin printing-related file formats.
 *.ctb
