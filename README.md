@@ -1,5 +1,7 @@
 # 4 Axis PCB Stencil Printer w/ Rotational Axis
 
+![Stencil printer shown from the top](./docs/img/closed-top.jpg)
+
 This is a GitHub mirror/fork of the 4 Axis PCB Stencil Printer
 with Rotational Axis by Philipp of [Dengler Mechatronik GmbH](https://dengler-mechatronik.de/).
 
@@ -34,6 +36,7 @@ replaces them with 2 x 140 mm long 8 mm linear rods riding on a bearing mounted 
 The eccenter mechanism is replaced with the same eccenter used on the front. In order to do that, the 2040
 300 mm extrusion is swapped with a 2020 size extrusion of the same length.
 
+![Linear Z axis modification, showing linear rods and their mounting](./docs/img/linear-z-axis.jpg)
 Status: usable work in progress
 
 ## Structure
