@@ -23,6 +23,19 @@ Technical drawing: [`technical-drawings/top-plate-workholding.dxf`](`top-plate-w
 
 Status: in use
 
+### Linear Z axis
+Caveat emptor: I never did manage to get the back of the eccenter Z axis working to my satisfaction.
+The clamp either captured the threaded rod fully or not at all, not allowing for movement, or rendering
+it in raspy freefall over the threads. It is possible I just didn't get it.
+
+What I did manage to get working, however, is a Dremel against a left-over linear rod from a 3D printer,
+and hence, the linear Z axis mod was born. It does away with the 2 x 140 mm long M8 threaded rods, and
+replaces them with 2 x 140 mm long 8 mm linear rods riding on a bearing mounted to the top frame.
+The eccenter mechanism is replaced with the same eccenter used on the front. In order to do that, the 2040
+300 mm extrusion is swapped with a 2020 size extrusion of the same length.
+
+Status: usable work in progress
+
 ## Structure
 
 * [`technical-drawings/`](technical-drawings/) - technical drawings in DXF and PDF formats for CNC manufacturing
