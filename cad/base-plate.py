@@ -27,4 +27,6 @@ def basePlate():
 plate = basePlate()
 plate.faces(">Z").workplane().section().export("output/base-plate-z.dxf")
 plate.faces(">Y").workplane().section().export("output/base-plate-y.dxf")
-show_object(plate, name="basePlate")
+
+if 'show_object' in globals():
+    show_object(plate, name="basePlate")

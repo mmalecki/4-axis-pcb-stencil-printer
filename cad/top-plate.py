@@ -34,4 +34,6 @@ def topPlate():
 plate = topPlate()
 plate.faces(">Z").workplane().section().export("output/top-plate-z.dxf")
 plate.faces(">Y").workplane().section().export("output/top-plate-y.dxf")
-show_object(topPlate())
+
+if 'show_object' in globals():
+    show_object(topPlate())

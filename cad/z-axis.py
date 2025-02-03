@@ -109,7 +109,10 @@ def bearingMount():
     return (rm, bearingMountW)
 
 br = bracket()
-show_object(br)
-
+br.export("TOP_Z_AXIS_BRACKET.step")
 (bm, _) = bearingMount()
-show_object(bm.translate((0, 0, bearingH)), name="bearingMount")
+bm.export("TOP_Z_AXIS_BEARING_MOUNT.step")
+
+if 'show_object' in globals():
+    show_object(br)
+    show_object(bm.translate((0, 0, bearingH)), name="bearingMount")
