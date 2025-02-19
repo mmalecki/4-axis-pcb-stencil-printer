@@ -37,7 +37,15 @@ The eccenter mechanism is replaced with the same eccenter used on the front. In 
 300 mm extrusion is swapped with a 2020 size extrusion of the same length.
 
 ![Linear Z axis modification, showing linear rods and their mounting](./docs/img/linear-z-axis.jpg)
-Status: usable work in progress
+
+Status: in use
+
+### Hinge locks
+The hinges I used still allowed for some play between the back of the frame and the moving part.
+Hence the hinge locks were born: if you're looking for repeatability across multiple applies,
+or just to increase overall rigidity of the top frame when closed, this is the drop-in addon to print. 
+
+Status: in use
 
 ## Structure
 
