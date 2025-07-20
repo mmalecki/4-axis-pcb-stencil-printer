@@ -1,3 +1,5 @@
+from cq_queryabolt import boltData
+
 class Settings:
     tight_fit = 0.1
     fit = 0.2
@@ -9,3 +11,6 @@ class Settings:
     wall_t = 4
 
     frame_bolt = "M5"
+    frame_bolt_d = boltData(frame_bolt)['diameter']
+
+    scope_d = 50
