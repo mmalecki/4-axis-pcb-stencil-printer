@@ -6,7 +6,12 @@ class Settings:
     topPlateLength = 240
     topPlateWidth = 200
     topPlateThickness = 6
+    # Whether to create a LumenPnP-like hole pattern in the top plate
     topPlateHolePattern = True
+
+    bottomPlateLength = 200
+    bottomPlateWidth = bottomPlateLength
+    bottomPlateThickness = 6
 
     basePlateLength = 257
     basePlateWidth = 162
@@ -31,6 +36,7 @@ class Settings:
 
     # Motion system
     rodD = 8
+    rotateBoltS = 75.450
 
     bearingD = 15
     bearingFit = tightFit
