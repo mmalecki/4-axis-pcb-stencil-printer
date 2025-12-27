@@ -47,6 +47,12 @@ or just to increase overall rigidity of the top frame when closed, this is the d
 
 Status: in use
 
+### Bottom plate access holes
+This mod replicates the 10 mm access hole seen in the bottom plate in all of five bolt locations.
+It allows for easier maintenance and mounting of the threaded rod driven axis as a whole.
+
+Status: in use
+
 ## Structure
 
 * [`technical-drawings/`](technical-drawings/) - technical drawings in DXF and PDF formats for CNC manufacturing
